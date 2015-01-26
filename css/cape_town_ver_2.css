@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	line-height:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*background:url(../images/back_main/back_main.jpg) no-repeat;*/
+	background:url(../images/back_main/back_main.jpg) no-repeat top center;
+}
+
+.clearFloats {
+	clear:both;
+}
+
+/*.containerMainBackground {
+	width:100%;
+	height:825px;
+	text-align:center;
+	position:absolute;
+	z-index:0;
+	
+}*/
+
+.mainBoxParent {
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:1
+}
+
+	.mainBox {
+		width:840px;
+		height:100%;
+		margin-left:auto;
+		margin-right:auto;
+		/*position:relative;*/
+	}
+	
+	.containerLogo {
+		width:inherit;
+		height:151px;
+		text-align:center;
+		margin-bottom:25px;
+	}
+	
+	.containerMainMenu {
+		width:795px;
+		height:20px;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		margin-bottom:20px;
+	}
+	
+		.containerMainMenu ul {
+			margin:0;
+			padding:0;
+			display:inline-block;
+			list-style:none;
+		}
+		
+			.containerMainMenu ul li {
+				display:inline;
+				margin-right:30px !important;
+				margin-right:25px;
+			}
+			
+	.containerFlash {
+		width:670px;
+		height:454px;
+		background:url(../images/back_flash_container/back_flash_container.png) no-repeat;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:20px;
+		padding-left:25px;
+	}
+	
+		.containerTextHomePage {
+			width:670px;
+			text-align:center;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:40px;
+		}
+		
+			.containerTextHomePage p {
+				margin:0;
+				padding:0;
+				font-size:14px;
+				font-weight:bold;
+				padding-bottom:20px;
+				
+			}
+			
+		
+
+/*Inside Page*/
+
+.insidePageMainContentContainer {
+	width:795px;
+	height:774px;
+	background:url(../images/back_main_inside_page/back_inside_page.png) no-repeat;
+	margin-left:auto;
+	margin-right:auto;
+	/*margin-bottom:230px !important;
+	margin-bottom:100px;*/
+	/*position:absolute;
+	z-index:0;*/
+}
+
+	.wrapperTextInsidePage {
+		width:520px;
+		/*position:absolute;
+		z-index:1;*/
+		padding-top:40px;
+		padding-left:25px;
+		float:left;
+		
+	}
+	
+		.titlePicSection, .subtitlePicSection {
+			width:inherit;
+		}
+		
+		.titlePicSection img {
+			margin-bottom:15px;
+		}
+		
+		.subtitlePicSection img {
+			margin-bottom:25px;
+		}
+	
+		.redH3 {
+			margin-bottom:20px;
+			padding-left:5px;
+		}
+		
+		.blackH3 {
+			margin-bottom:20px;
+			padding-left:5px;
+		}
+		
+			.redH3 h3 {
+				margin:0;
+				padding:0;
+				color:#f15c22;
+				font-size:14px;
+			}
+			
+			.redH3 p {
+				margin:0;
+				padding:0;
+				font-size:12px;
+			}
+			
+			.blackH3 h3 {
+				margin:0;
+				padding:0;
+				font-size:12px;
+				color:#000;
+			}
+			
+			.blackH3 p {
+				margin:0;
+				padding:0;
+				font-size:12px;
+			}
+			
+		.justText {
+			width:inherit;
+			padding-left:5px;
+		}
+		
+			.justText p {
+				margin:0;
+				padding:0;
+				padding-bottom:15px;
+				font-size:12px;
+			}
+			
+	.footer {
+			width:670px;
+			margin-left:auto;
+			margin-right:auto;
+			text-align:center;
+			margin-bottom:25px;
+			/*padding-top:125px;
+			margin-bottom:25px;*/
+		}
+		
+			.footer p {
+				margin:0;
+				padding:0;
+				color:#000;
+				font-size:10px;
+				padding-top:5px;
+			}
+		
+			.footer ul {
+				margin:0;
+				padding:0;
+				display:inline;
+				font-size:11px;
+			}
+			
+				.footer ul li {
+					display:inline;
+					border-right:1px solid #000;
+					margin-right:5px;
+					*margin-right:5px;
+					padding-left:5px;
+					padding-right:5px;
+				}
+				
+				.footer ul li.noBorderLi {
+					border:none;
+				}
+				
+					.footer ul li a {
+						text-decoration:none;
+						color:#000;
+					}
+					
+					.footer ul li a:hover {
+						text-decoration:underline;
+					}
+			
+			.containerKLDistributor {
+				width:670px;
+				margin-left:auto;
+				margin-right:auto;
+				text-align:center;
+				padding-bottom:50px;
+			}
+			
+		.backBottomInsidePage {
+			width:670px;
+			height:40px;
+			background:url(../images/back_bottom_inside_page/back_bottom.jpg) no-repeat top center;
+		}
+		
+		.lyteboxPictures {
+			width:230px;
+			float:right;
+			padding-top:40px;
+			margin-right:10px;
+		}
+		
+			.secondLyteboxPic {
+				margin-left:35px;
+			}
+			
+			.fourthLyteboxPic {
+				margin-left:35px;
+				margin-top:-3px;
+			}
+			
+			.fifthLyteboxPic {
+				margin-left:25px;
+				margin-top:5px;
+			}
+			
+h4 {
+	color:#0055a5;
+	margin:0;
+	padding:0;
+	font-size:14px;
+	}
+			
+/*Desktop backgrounds*/
+
+.container4SmallDesktopBackgrounds {
+	width:inherit;
+	margin-bottom:30px;
+}
+
+	.smallPicBackground {
+		width:250px;
+		height:250px;
+		margin-right:3px;
+		margin-bottom:3px;
+		float:left;
+		border:1px solid #666666;
+	}
+			
+	
+		
